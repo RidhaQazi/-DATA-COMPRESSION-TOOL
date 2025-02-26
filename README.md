@@ -18,9 +18,13 @@ The program prompts the user to enter the input file name and the output file na
 
 To test the program, I used a sample input file, rle.txt, containing repetitive text patterns. After running the compression function, the output was stored in com.txt, significantly reducing the file size. I then used the decompression function to generate decom.txt, and it matched rle.txt exactly. 
 
-## See rle.txt com.txt decom.txt
+## See rle.txt [rle.txt](https://github.com/user-attachments/files/18989437/rle.txt)
+## See com.txt [com.txt](https://github.com/user-attachments/files/18989438/com.txt)
+## See decom.txt [decom.txt](https://github.com/user-attachments/files/18989439/decom.txt) 
 
 This RLE-based compression tool has several practical applications. It is useful in reducing file sizes for storage efficiency, especially in text-based logs, simple image encoding, and data transmission where bandwidth is limited. RLE is widely used in fax transmission, bitmap image encoding, and simple archival tools. While RLE is best suited for data with many repeating characters, it may not be effective for files with high entropy, such as encrypted text or random data.By completing this task, I gained valuable insights into file handling, character processing, and efficient encoding algorithms in C. Understanding data compression techniques like RLE provides a foundation for exploring more advanced algorithms, such as Huffman coding and Lempel-Ziv-Welch (LZW), which are used in modern compression standards like ZIP, PNG, and GIF formats. This project reinforced the importance of optimizing storage and improving data transmission while maintaining data integrity, making it a crucial concept in computing and software development.
 
 ## Output
+
+![Image](https://github.com/user-attachments/assets/ee3fa309-24dc-4e79-82a3-7036c3133f2f)
 
